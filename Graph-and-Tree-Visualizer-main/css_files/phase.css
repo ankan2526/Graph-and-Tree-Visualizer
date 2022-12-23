@@ -1,5 +1,7 @@
 body{
     background-color: pink;
+    display: flex;
+    justify-content: center;
 }
 
 div{
@@ -8,7 +10,7 @@ div{
     position: absolute;
     left: 600px;
     top: 125px;
-    width: 500px;
+    width: 30%;
     height: 600px;
     background-color: aqua;
     border: 5px solid blue;
