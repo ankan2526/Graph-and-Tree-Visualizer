@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+}
+
+div{
+    
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 125px;
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+    border: 5px solid blue;
+    border-style:groove;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 6px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  a{
+    font-size: large;
+  }
+
+  a:hover {
+  color: hotpink;
+  }
+
+  #user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 25%;
+    background-color: #9df9ef;
+    border: 10px lightgreen;
+    border-style:groove;
+}
